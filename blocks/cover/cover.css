@@ -1,11 +1,9 @@
 .cover {
   position: relative;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
+  margin: 0 auto 92px;
   width: 1184px;
   height: 740px;
-  margin: 0 auto;
   background: url(../../images/cover-image.jpg) no-repeat center / contain;
 }
 
