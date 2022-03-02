@@ -1,6 +1,7 @@
 .place__paragraph {
   margin: 0 0 26px;
-  width: 484px;
+  max-width: 484px;
+  width: 100%;
   font-size: 1.125rem;
   line-height: 161%;
 }
@@ -9,6 +10,6 @@
   margin-bottom: 0;
 }
 
-.place_content_text:nth-of-type(2)>.place__paragraph:first-of-type {
+/* .place_content_text:nth-of-type(2)>.place__paragraph:first-of-type {
   width: 467px;
-}
+} */

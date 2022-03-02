@@ -2,7 +2,8 @@
   position: relative;
   display: flex;
   margin: 0 auto 92px;
-  width: 1184px;
+  max-width: 1184px;
+  width: 93%;
   height: 740px;
   background: url(../../images/cover-image.jpg) no-repeat center / contain;
 }
