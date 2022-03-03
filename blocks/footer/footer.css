@@ -7,3 +7,9 @@
   max-width: 1184px;
   width: 93%;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}

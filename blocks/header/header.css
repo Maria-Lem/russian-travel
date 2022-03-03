@@ -3,7 +3,14 @@
   justify-content: space-between;
   align-items: end;
   margin: 0 auto;
-  padding: 28px 48px 56px;
+  padding: 28px 0 56px;
   max-width: 1184px;
   width: 93%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-bottom: 48px;
+    max-width: 928px;
+  }
 }

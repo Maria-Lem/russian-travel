@@ -4,5 +4,11 @@
   align-items: center;
   margin: 0 auto;
   max-width: 984px;
-  width: 90%;
+  width: 93%;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 928px;
+  }
 }
