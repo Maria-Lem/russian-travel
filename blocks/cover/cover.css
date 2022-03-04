@@ -3,9 +3,10 @@
   display: flex;
   margin: 0 auto 92px;
   max-width: 1184px;
-  width: 93%;
-  height: 740px;
-  background: url(../../images/cover-image.jpg) no-repeat center / contain;
+  max-height: 740px;
+  width: 100vw;
+  height: 62.5vw;
+  background: url(../../images/cover-image.jpg) no-repeat center / cover;
 }
 
 .cover::before {
@@ -23,9 +24,8 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
-    height: 640px;
+    margin-bottom: 88px;
   }
 }
