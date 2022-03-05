@@ -26,3 +26,9 @@
     line-height: 162%;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .place:nth-of-type(4)>.segment_content_text>.place__paragraph:nth-of-type(2) {
+    max-width: 267px;
+  }
+}

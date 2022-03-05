@@ -17,3 +17,19 @@
     letter-spacing: .5px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .place__title {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place__title {
+    margin-bottom: 32px;
+    padding: 0 16px;
+    font-size: 32px;
+    letter-spacing: .5px;
+  }
+}

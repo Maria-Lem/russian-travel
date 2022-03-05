@@ -24,3 +24,12 @@
     width: 95%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .photo-grid {
+    grid-template-columns: minmax(288px, 424px);
+    gap: 12px;
+    justify-items: center;
+    padding-bottom: 64px;
+  }
+}

@@ -5,3 +5,17 @@
   grid-row-start: 2;
   grid-row-end: 4;
 }
+
+@media screen and (max-width: 580px) {
+  .place__image {
+    margin-bottom: 27px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place__image {
+  margin-bottom: 32px;
+  }
+}

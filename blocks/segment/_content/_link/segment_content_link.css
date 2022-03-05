@@ -1,3 +1,18 @@
 .segment_content_link {
   align-self: end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 580px) {
+  .segment_content_link {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .segment_content_link {
+  margin-bottom: 32px;
+  padding: 0 16px;
+  }
 }

@@ -7,3 +7,19 @@
   width: 465px;
   list-style-type: none;
 }
+
+@media screen and (max-width: 735px) {
+  .footer__nav-links {
+    width: 445px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__nav-links {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 48px;
+    height: 248px;
+    width: 100%;
+  }
+}

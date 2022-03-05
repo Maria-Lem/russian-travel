@@ -19,3 +19,9 @@
     width: 95%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+  width: 100%;
+  }
+}

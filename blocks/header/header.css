@@ -14,3 +14,10 @@
     max-width: 928px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding: 16px 0 48px;
+    width: 90%;
+  }
+}
