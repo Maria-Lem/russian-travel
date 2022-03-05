@@ -5,11 +5,6 @@
   transition: .2s;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 18px;
-  border-bottom: 2px solid #fff;
-}
-
 .header__lang-link:hover {
   opacity: .8;
 }

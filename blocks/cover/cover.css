@@ -4,7 +4,7 @@
   margin: 0 auto 92px;
   max-width: 1184px;
   max-height: 740px;
-  width: 100vw;
+  /* width: 100vw; */
   height: 62.5vw;
   background: url(../../images/cover-image.jpg) no-repeat center / cover;
 }
